@@ -7,6 +7,7 @@ padding: 15px 25px;
 display: flex;
 justify-content: space-between;
 align-items: center;
+background-color: rgb(255, 210, 234);
 }
 .cartao {
     width: 260px;
@@ -15,3 +16,18 @@ align-items: center;
 .cartao-imagem{
     width: 100%;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+    main{
+        flex: 1;
+    }
+    .cabecalho-link{
+        color:ghostwhite;
+        text-decoration: double;
+    }
+    h1{
+        color: #000;
+    }
