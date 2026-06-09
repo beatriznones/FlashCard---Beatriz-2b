@@ -7,7 +7,7 @@ padding: 15px 25px;
 display: flex;
 justify-content: space-between;
 align-items: center;
-background-color: rgb(255, 210, 234);
+background-color: #feffd5;
 }
 .cartao {
     width: 260px;
@@ -20,14 +20,21 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: rgb(255, 236, 246);
 }
     main{
         flex: 1;
     }
     .cabecalho-link{
-        color:ghostwhite;
+        color:rgb(255, 231, 244);
         text-decoration: double;
     }
     h1{
-        color: #000;
+        color: #222020;
+        font-size: 24px;
+    }
+    footer{
+        background-color: rgb(255, 247, 202);
+        padding: 15px 25px;
+        color: rgb(238, 220, 255);
     }
