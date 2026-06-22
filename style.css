@@ -56,3 +56,7 @@ body {
     .cartao-verso {
         transform: rotateY(180deg);
     }
+    .cartao:hover .cartao-interno{
+        transform: rotateY(180deg);
+        
+    }
